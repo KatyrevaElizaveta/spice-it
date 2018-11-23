@@ -2,13 +2,22 @@
     font-family: $futuranew;
     font-weight: 500;
     border-radius: 100px;
-    border: solid 2px #000000;
-    background-color: #ffffff;
+    border: solid 2px $black;
+    background-color: $white;
     padding: .8em 2.4em;
     font-size: 30px;
-    color: #000000;
+    color: $black;
+    transition: 0.3s background-color, 0.2s color;
+    &:hover {
+      color: $white;
+      background-color: $black;
+    }
     &--small {
       font-size: 16px;
-      border: 2px solid #d0021b;
+      border: 2px solid $red2;
+      &:hover {
+        color: $white;
+        background-color: $red2;
+      }
     }
 }
