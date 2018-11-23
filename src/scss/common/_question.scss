@@ -1,12 +1,15 @@
 .question {
-  border-bottom: 1px solid #9b9b9b;
+  border-bottom: 1px solid gray;
   &__text {
     font-size: 20px;
     font-weight: 500;
     padding-bottom: 20px;
     cursor: pointer;
-    color: #000000;
+    color: $black;
     transition: color .3s ease;
+    &:hover {
+      color: $gray;
+    }
   }
   &__answer {
     font-size: 16px;
@@ -15,7 +18,7 @@
   }
   &--opened {
     .question__text {
-      color: #9b9b9b;
+      color: $gray;
     }
 
   }
