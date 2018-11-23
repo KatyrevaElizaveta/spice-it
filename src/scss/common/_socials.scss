@@ -15,6 +15,10 @@
   background-color: white;
   background-repeat: no-repeat;
   background-position: center center;
+  transition: 0.4s transform;
+  &:hover {
+    transform: scale(1.05);
+  }
   &--fb {
     background-image: url(../images/social-fb.svg);
   }
