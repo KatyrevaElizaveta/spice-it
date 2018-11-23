@@ -90,7 +90,7 @@ gulp.task('fonts', function() {
 });
 
 gulp.task('watch', function() {
-  gulp.watch('./src/css/**/*.scss', ['css']);
+  gulp.watch('./src/scss/**/*.scss', ['css']);
   gulp.watch('./src/js/**/*.js', ['js']);
   gulp.watch('./src/images/**/*', ['img']);
 });
