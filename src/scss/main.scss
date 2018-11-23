@@ -1,0 +1,92 @@
+@import "base/normalize";
+
+@import 'base/fonts';
+@import 'base/vars';
+@import 'base/mixins';
+@import 'base/settings';
+
+@import 'common/header';
+@import 'common/subscribe';
+@import 'common/team';
+@import 'common/card';
+@import 'common/button';
+@import 'common/start';
+@import 'common/directions';
+@import 'common/benefits';
+@import 'common/different';
+@import 'common/common-photo';
+@import 'common/diversity';
+@import 'common/discover';
+@import 'common/question';
+@import 'common/footer';
+@import 'common/socials';
+@import 'common/menu';
+@import 'common/lang-toggler';
+@import 'common/menu-btn';
+@import 'common/space';
+@import 'common/formgroup';
+
+
+.home {
+  &__title {
+    font-size: 9.3vw;
+    font-weight: 500;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin-left: -.7vw;
+    margin-right: -.7vw;
+    letter-spacing: 0.007em;
+  }
+  &__subscribe {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  &__promo-text {
+    width: 50%;
+    font-family: $garamond;
+    font-style: italic;
+    font-size: 30px;
+    line-height: 36px;
+  }
+  &__space {
+    height: 754px;
+  }
+  &__start {
+    background-color: #d71418;
+    color: #ffffff;
+    padding-top: 72px;
+    padding-bottom: 70px;
+  }
+  &__directions {
+    padding-top: 39px;
+    padding-bottom: 155px;
+  }
+  &__benefits {
+    padding-top: 50px;
+  }
+  &__different {
+    padding-bottom: 76px;
+  }
+  &__diversity {
+    padding-top: 115px;
+  }
+  &__discover {
+    padding-bottom: 100px;
+  }
+  &__startfree {
+    padding: 81px 0 65px;
+    background-color: #f8e71c;
+  }
+  &__double {
+    display: flex;
+  }
+}
+
+
+
+
+
+
+

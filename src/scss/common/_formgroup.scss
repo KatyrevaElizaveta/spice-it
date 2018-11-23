@@ -1,0 +1,16 @@
+.formgroup {
+  display: block;
+  position: relative;
+  z-index: 0;
+  &__input {
+
+  }
+  &__label {
+
+  }
+  &__error {
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+}

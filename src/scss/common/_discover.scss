@@ -1,0 +1,22 @@
+.discover {
+  &__title {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 57px;
+  }
+  &__items {
+    margin: 0 auto 55px;
+    width: 100%;
+    max-width: 630px;
+  }
+  &__btn-box {
+    text-align: center;
+  }
+  &__item {
+    margin-bottom: 21px;
+  }
+  &__btn {
+    display: inline-block;
+  }
+}

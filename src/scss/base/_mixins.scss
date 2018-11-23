@@ -1,0 +1,19 @@
+@mixin media($val){
+    @if $val == 'tablet' {
+      @media screen and (min-width: 751px) and (max-width: 950px) {
+        @content;
+      }
+    } @else if $val == 'mobile' {
+      @media screen and (max-width: 750px) {
+        @content;
+      }
+    } @else if $val == 'tablet-up' {
+      @media screen and (min-width: 577px) {
+        @content;
+      }
+    } @else if $val == 'desktop-up' {
+      @media screen and (min-width: 1111px) {
+        @content;
+      }
+    }
+}

@@ -1,0 +1,37 @@
+.subscribe {
+  &__title {
+    font-size: 22px;
+    font-family: $futuranew;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+  &__input {
+    font-size: 22px;
+    font-family: $futuranew;
+    font-weight: 500;
+    padding: .55em .7em .75em .7em;
+    color: #d71418;
+    border: 2px solid #d0021b;
+    width: 100%;
+  }
+  &__btn {
+    display: block;
+    min-width: 55px;
+    border: 2px solid #d0021b;
+    border-left: none;
+    background: url(../images/icon-send.png) no-repeat center;
+    background-size: 78% 78%;
+    background-color: #d0021b;
+  }
+  &__group {
+    display: flex;
+    margin-bottom: 13px;
+    width: 66%;
+  }
+  &__form {
+    display: block;
+  }
+  &__formgroup {
+    flex-grow: 1;
+  }
+}

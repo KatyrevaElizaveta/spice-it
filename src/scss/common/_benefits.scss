@@ -1,0 +1,28 @@
+.benefits {
+  &__title {
+    font-family: $futuranew;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+  }
+  &__item {
+
+  }
+  &__btn {
+    display: inline-block;
+    margin-top: 93px;
+  }
+  &__nopre {
+    padding-top: 90px;
+  }
+  &__specific {
+    padding-top: 185px;
+  }
+  &__global {
+    padding-top: 30px;
+  }
+  &__exclusive {
+    padding-top: 145px;
+    padding-bottom: 95px;
+  }
+}

@@ -1,0 +1,29 @@
+.space {
+  &__container {
+    height: 100%;
+  }
+  &__inner {
+    height: 100%;
+    margin-left: -15px;
+    margin-right: -15px;
+    position: relative;
+  }
+  &__planet {
+    position: absolute;
+  }
+  &__planet-1 {
+    width: 40%;
+    left: 0;
+    top: 11%;
+  }
+  &__planet-2 {
+    width: 16%;
+    right: 23.5%;
+    top: 11%;
+  }
+  &__planet-3 {
+    width: 12.2%;
+    left: 44%;
+    bottom: 5%;
+  }
+}

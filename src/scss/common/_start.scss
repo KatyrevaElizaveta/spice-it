@@ -1,0 +1,31 @@
+.start {
+  &__title {
+    width: 95%;
+    max-width: 25em;
+    line-height: 1.2;
+    font-size: 30px;
+    font-family: $futuranew;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 auto 30px;
+  }
+  &__btn-box {
+    text-align: center;
+  }
+  &__text {
+   font-size: 22px;
+   line-height: 1.363;
+   text-align: center;
+   margin: 40px auto 0;
+   width: 100%;
+   max-width: 18em;
+  }
+  &__btn {
+    display: inline-block;
+  }
+  &--free {
+    .start__title {
+      margin-bottom: 50px;
+    }
+  }
+}

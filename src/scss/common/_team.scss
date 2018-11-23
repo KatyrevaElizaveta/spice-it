@@ -1,0 +1,24 @@
+.team {
+    margin-bottom: 92px;
+    &__purpose {
+        text-align: center;
+        font-family: $futuranew;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 1.2;
+        margin: 0 auto 30px;
+        width: 95%;
+        max-width: 28em;
+    }
+    &__items {
+        display: flex;
+        max-width: 800px;
+        width: 95%;
+        margin: 0 auto;
+    }
+    &__item {
+        width: 50%;
+        padding: 0 5% 0 5%;
+    }
+
+}

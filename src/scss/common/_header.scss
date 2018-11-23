@@ -1,0 +1,23 @@
+.header {
+  &__inner {
+    min-height: 120px;
+    padding-top: 45px;
+    position: relative;
+  }
+  &__logo {
+    display: inline-block;
+    width: 350px;
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+  &__burger {
+    position: absolute;
+    width: 86px;
+    height: 86px;
+    top: 22px;
+    right: 7px;
+    z-index: 2;
+  }
+}

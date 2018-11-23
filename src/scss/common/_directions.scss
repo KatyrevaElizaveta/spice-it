@@ -1,0 +1,17 @@
+.directions {
+    background-color: #000000;
+    color: #ffffff;
+    &__title {
+        font-size: 30px;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 105px;
+    }
+    &__items {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        width: 28.5%;
+    }
+}
