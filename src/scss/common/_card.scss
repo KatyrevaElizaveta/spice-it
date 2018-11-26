@@ -1,9 +1,13 @@
 .card {
   &__img {
+    position: relative;
     height: 263px;
   }
   &__icon {
-    min-height: 90px;
+    display: block;
+    margin: 0 auto;
+    width: 172px;
+    margin-bottom: 40px;
   }
   &__text {
     font-size: 22px;
@@ -15,7 +19,7 @@
     font-size: 40px;
     font-weight: 500;
     line-height: 1.25;
-    min-height: 173px;
+    min-height: 125px;
   }
   &--row {
     display: flex;
@@ -30,8 +34,12 @@
       &__text {
         max-width: 22em;
       }
+      &__img {
+        height: auto;
+      }
     }
   }
 }
+
 
 
