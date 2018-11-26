@@ -63,7 +63,6 @@
         &__block {
           width: 100%;
         }
-        
       }
     }
     &--team {
@@ -71,6 +70,18 @@
         font-size: 14px;
         line-height: 1.3;
       }
+    }
+    &--no-prepayment {
+      
+    }
+    &--it-specific {
+
+    }
+    &--global {
+
+    }
+    &--exclusive {
+
     }
   }
 }
