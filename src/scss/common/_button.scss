@@ -1,23 +1,27 @@
 .button {
-    font-family: $futuranew;
-    font-weight: 500;
-    border-radius: 100px;
-    border: solid 2px $black;
-    background-color: $white;
-    padding: .8em 2.4em;
-    font-size: 30px;
-    color: $black;
-    transition: 0.3s background-color, 0.2s color;
+  font-family: $futuranew;
+  font-weight: 500;
+  border-radius: 100px;
+  border: solid 2px $black;
+  background-color: $white;
+  padding: .8em 2.4em;
+  font-size: 30px;
+  color: $black;
+  transition: 0.3s background-color, 0.2s color;
+  &:hover {
+    color: $white;
+    background-color: $black;
+  }
+  &--small {
+    font-size: 16px;
+    border: 2px solid $red2;
     &:hover {
       color: $white;
-      background-color: $black;
+      background-color: $red2;
     }
-    &--small {
-      font-size: 16px;
-      border: 2px solid $red2;
-      &:hover {
-        color: $white;
-        background-color: $red2;
-      }
-    }
+  }
+  @include media(mobile){
+    font-size: 20px;
+    padding: 1.3em 2.8em;
+  }
 }

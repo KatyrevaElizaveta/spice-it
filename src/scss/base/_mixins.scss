@@ -4,7 +4,7 @@
         @content;
       }
     } @else if $val == 'mobile' {
-      @media screen and (max-width: 750px) {
+      @media screen and (max-width: 566px) {
         @content;
       }
     } @else if $val == 'tablet-up' {

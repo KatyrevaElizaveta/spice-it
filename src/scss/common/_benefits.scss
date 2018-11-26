@@ -25,4 +25,9 @@
     padding-top: 170px;
     padding-bottom: 215px;
   }
+  @include media(mobile) {
+    &__title {
+      font-size: 20px;
+    }
+  }
 }

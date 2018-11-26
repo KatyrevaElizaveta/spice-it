@@ -22,4 +22,27 @@
   &--exclusive {
     transform: translate3d(-50px,5px,0);
   }
+  @include media(mobile) {
+
+    &--spaceman {
+      bottom: 30px;
+      height: 180px;
+    }
+    &--rocket {
+      bottom: 30px;
+      height: 150px;
+    }
+    &--no-prepayment {
+      position: relative;
+    }
+    &--greetings {
+      position: relative;
+    }
+    &--global-pool {
+      position: relative;
+    }
+    &--exclusive {
+      position: relative;
+    }
+  }
 }

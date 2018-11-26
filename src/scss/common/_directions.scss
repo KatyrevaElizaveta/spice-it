@@ -1,17 +1,31 @@
 .directions {
-    background-color: #000000;
-    color: #ffffff;
+  background-color: #000000;
+  color: #ffffff;
+  &__title {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  &__items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  &__item {
+    width: 31%;
+
+  }
+  @include media(mobile) {
     &__title {
-        font-size: 30px;
-        font-weight: 500;
-        text-align: center;
-        margin-bottom: 60px;
-    }
-    &__items {
-        display: flex;
-        justify-content: space-between;
+      font-size: 20px;
+      margin-bottom: 26px;
     }
     &__item {
-        width: 31%;
+      width: 100%;
+      & + & {
+        margin-top: 36px;
+      }
     }
+  }
 }
