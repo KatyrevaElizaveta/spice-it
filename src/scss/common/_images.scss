@@ -18,21 +18,25 @@
     position: absolute;
     right: 65%;
     top: 75px;
+    width: 28%;
   }
   &--greetings {
     position: absolute;
     left: 58%;
     top: 140px;
+    width: 26%;
   }
   &--global-pool {
     position: absolute;
     top: 235px;
     right: 62.5%;
+    width: 33.5%;
   }
   &--exclusive {
     position: absolute;
     left: 55%;
     top: 180px;
+    width: 31.5%;
   }
   @include media(mobile) {
 
