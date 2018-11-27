@@ -40,27 +40,12 @@
     br {
       display: none;
     }
-    @include media(mobile) {
-      font-size: 52px;
-      text-align: center;
-      line-height: 1.1;
-      margin-left: -10px;
-      margin-right: -10px;
-      padding-bottom: 25px;
-      padding-top: 25px;
-      br {
-        display: block;
-      }
-    }
   }
   &__subscribe {
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    @include media(mobile) {
-      width: 100%;
-    }
   }
   &__promo-text {
     width: 50%;
@@ -68,21 +53,9 @@
     font-style: italic;
     font-size: 30px;
     line-height: 1.2;
-    @include media(mobile) {
-      width: 100%;
-      font-size: 20px;
-      padding-top: 15px;
-      line-height: 1.3;
-      br {
-        display: none;
-      }
-    }
   }
   &__space {
     height: 754px;
-    @include media(mobile) {
-      height: 430px;
-    }
   }
   &__team {
     margin-bottom: 92px;
@@ -117,7 +90,39 @@
     display: flex;
     flex-wrap: wrap;
   }
+  @include media(large-desktop-up) {
+    &__title {
+      font-size: 120px;
+    }
+  }
   @include media(mobile) {
+    &__title {
+      font-size: 52px;
+      text-align: center;
+      line-height: 1.1;
+      margin-left: -10px;
+      margin-right: -10px;
+      padding-bottom: 25px;
+      padding-top: 25px;
+      br {
+        display: block;
+      }
+    }
+    &__subscribe {
+      width: 100%;
+    }
+    &__promo-text {
+      width: 100%;
+      font-size: 20px;
+      padding-top: 15px;
+      line-height: 1.3;
+      br {
+        display: none;
+      }
+    }
+    &__space {
+      height: 430px;
+    }
     &__team {
       margin-bottom: 32px;
     }

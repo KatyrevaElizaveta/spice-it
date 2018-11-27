@@ -9,6 +9,8 @@
 .container {
     overflow: hidden;
     margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
     @include media(desktop-up) {
         padding-right: 15px;
         padding-left: 15px;
@@ -26,6 +28,9 @@ body {
     color: #000000;
     font-family: $futuranew;
     position: relative;
+    &.overflow-hidden {
+        overflow: hidden;
+    }
 }
 
 a, button {

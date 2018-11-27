@@ -15,5 +15,9 @@
       @media screen and (min-width: 1111px) {
         @content;
       }
+    } @else if $val == 'large-desktop-up' {
+      @media screen and (min-width: 1211px) {
+        @content;
+      }
     }
 }
