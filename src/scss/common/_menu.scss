@@ -45,6 +45,7 @@
   &__item {
     font-size: 30px;
     font-weight: 500;
+    display: block;
     & + & {
       margin-top: 16px;
     }

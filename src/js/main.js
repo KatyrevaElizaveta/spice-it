@@ -16,6 +16,12 @@ $(function(){
     $('.menu-btn--close').removeClass('menu-btn--close');
   });
 
+  $('.menu__item').on('click', function() {
+    $(this).closest('.menu').removeClass('menu--active');
+    $('body').removeClass('overflow-hidden');
+    $('.menu-btn--close').removeClass('menu-btn--close');
+  });
+
 
 
   formValidation();
