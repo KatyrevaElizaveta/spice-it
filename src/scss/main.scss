@@ -85,6 +85,31 @@
   &__startfree {
     padding: 81px 0 65px;
     background-color: #f8e71c;
+    position: relative;
+    &:before {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 22%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background: url(../images/pic-earth-piece.png) no-repeat;
+      background-size: 100% auto;
+      background-position: left top;
+    }
+    &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 25%;
+      height: 100%;
+      bottom: 0;
+      right: 0;
+      background: url(../images/pic-earth-piece-half.png) no-repeat;
+      background-size: 100% auto;
+      background-position: right bottom -70px;
+    }
   }
   &__double {
     display: flex;
