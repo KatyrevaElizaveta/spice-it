@@ -13,9 +13,7 @@
     }
   }
   &__top-row {
-    @include media(tablet-up) {
-      min-height: 115px;
-    }
+    min-height: 115px;
   }
   &__row {
     margin: 0 -15px;
