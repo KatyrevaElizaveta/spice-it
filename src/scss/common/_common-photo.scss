@@ -26,4 +26,21 @@
   &__btn {
     display: inline-block;
   }
+  @include media(mobile) {
+    background-size: auto 68%;
+    background-position: center bottom 70px;
+    &__title {
+      position: absolute;
+      font-size: 20px;
+      top: auto;
+      left: 0;
+      color: $black;
+    }
+    &__btn-box {
+      bottom: 0;
+    }
+    &:after {
+      padding-bottom: 110.5%;
+    }
+  }
 }

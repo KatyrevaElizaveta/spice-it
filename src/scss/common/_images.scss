@@ -1,26 +1,38 @@
 .image {
   display: block;
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
   &--spaceman {
     bottom: 20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
   }
   &--rocket {
     bottom: 20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
   }
   &--no-prepayment {
-    transform: translate3d(-50px, 5px, 0);
+    position: absolute;
+    right: 65%;
+    top: 75px;
   }
   &--greetings {
-    transform: translate3d(-49px,5px,0);
+    position: absolute;
+    left: 58%;
+    top: 140px;
   }
   &--global-pool {
-    transform: translate3d(-50px,10px,0);
+    position: absolute;
+    top: 235px;
+    right: 62.5%;
   }
   &--exclusive {
-    transform: translate3d(-50px,5px,0);
+    position: absolute;
+    left: 55%;
+    top: 180px;
   }
   @include media(mobile) {
 
@@ -34,15 +46,35 @@
     }
     &--no-prepayment {
       position: relative;
+      right: auto;
+      top: 0;
+      width: 100%;
+      max-width: 320px;
+      margin: 0 auto 22px;
     }
     &--greetings {
       position: relative;
+      left: auto;
+      top: 0;
+      width: 100%;
+      max-width: 320px;
+      margin: 0 auto 15px;
     }
     &--global-pool {
       position: relative;
+      right: auto;
+      top: 0;
+      width: 100%;
+      max-width: 320px;
+      margin: 0 auto 17px;
     }
     &--exclusive {
       position: relative;
+      left: auto;
+      top: 0;
+      width: 100%;
+      max-width: 320px;
+      margin: 0 auto 28px;
     }
   }
 }

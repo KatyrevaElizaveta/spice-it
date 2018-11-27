@@ -45,6 +45,7 @@
   &__addresses {
     flex-basis: 50%;
     display: flex;
+    flex-wrap: wrap;
     padding-top: 9px;
     justify-content: space-between;
   }
@@ -57,6 +58,30 @@
     font-size: 16px;
     line-height: 1.25;
     width: 37%;
+  }
+  @include media(mobile) {
+    &__logo-box {
+      flex-basis: 100%;
+      margin-bottom: 50px;
+    }
+    &__contacts {
+      flex-basis: 100%;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    &__socials {
+      flex-basis: 100%;
+      text-align: center;
+    }
+    &__addresses {
+      flex-basis: 100%;
+      padding-top: 37px;
+      padding-left: 20px;
+    }
+    &__address {
+      width: 100%;
+      margin-bottom: 37px;
+    }
   }
 }
 

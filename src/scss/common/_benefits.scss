@@ -6,7 +6,7 @@
     text-align: center;
   }
   &__item {
-
+    position: relative;
   }
   &__btn {
     display: inline-block;
@@ -14,20 +14,47 @@
   }
   &__nopre {
     padding-top: 70px;
+    padding-left: 50%;
   }
   &__specific {
     padding-top: 135px;
+    padding-right: 50%;
   }
   &__global {
     padding-top: 225px;
+    padding-left: 50%;
   }
   &__exclusive {
     padding-top: 170px;
     padding-bottom: 215px;
+    padding-right: 50%;
   }
   @include media(mobile) {
     &__title {
       font-size: 20px;
+    }
+    &__nopre {
+      padding-left: 0;
+      padding-top: 15px;
+    }
+    &__specific {
+      padding-right: 0;
+      padding-top: 62px;
+    }
+    &__global {
+      padding-left: 0;
+      padding-top: 49px;
+    }
+    &__exclusive {
+      padding-right: 0;
+      padding-top: 50px;
+      padding-bottom: 49px;
+    }
+    &__btn-box {
+      text-align: center;
+    }
+    &__btn {
+      margin-top: 36px;
     }
   }
 }

@@ -17,4 +17,18 @@
     margin: 0 auto;
     margin-bottom: 50px;
   }
+  @include media(mobile) {
+    &__title {
+      font-size: 30px;
+    }
+    &__desc {
+      padding-top: 19px;
+      padding-bottom: 90px;
+    }
+    &__img {
+      max-width: 320px;
+      width: 100%;
+      margin-bottom: 11px;
+    }
+  }
 }
