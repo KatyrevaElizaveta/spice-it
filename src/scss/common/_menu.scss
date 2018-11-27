@@ -49,6 +49,9 @@
     & + & {
       margin-top: 16px;
     }
+    &:hover {
+      color: $red;
+    }
   }
   &__items {
     margin: 0 auto;
